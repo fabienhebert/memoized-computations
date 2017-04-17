@@ -1,0 +1,33 @@
+{
+  "name": "memoized-computations",
+  "version": "0.0.1",
+  "description": "Selectors able to compute derived data using several inputs",
+  "main": "lib/library.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --env dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exayy/memoized-computations.git"
+  },
+  "keywords": [
+    "selectors",
+    "memoization",
+    "derived data"
+  ],
+  "author": "fabien hebert @exayy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exayy/memoized-computations/issues"
+  },
+  "homepage": "https://github.com/Exayy/memoized-computations#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^1.13.3"
+  }
+}
